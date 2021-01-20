@@ -30,7 +30,7 @@ app.layout = html.Div(children=[
     html.H1(children='Analyze Titanic Dataset '),
 
     html.Div(children='''
-        Dash: A web application framework for Python.
+        Dash Made by : Nada ALzahrani, Shaima Alamri
     '''),
 
     html.Div(children= [
