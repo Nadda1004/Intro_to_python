@@ -3,7 +3,6 @@ import dash_core_components as dcc
 import dash_html_components as html
 import plotly.express as px
 import pandas as pd
-import plotly.graph_objects as go
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
@@ -77,7 +76,6 @@ app.layout = html.Div(children=[
     ] , style =  {'display': 'inline-block'}),
     
     html.Div(children= [
-        html.H4(children = '                  '),
         dcc.Graph(
         id='g11',
         figure=fig10
